@@ -1,5 +1,5 @@
 {
-    "name": "suroviy/soa_addon",
+    "name": "larabox/soa_addon",
     "description": "CMS",
     "keywords": ["laravel", "form", "controllers", "JavaScript"],
     "license": "MIT",
