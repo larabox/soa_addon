@@ -1,0 +1,29 @@
+{
+    "name": "suroviy/soa_addon",
+    "description": "CMS",
+    "keywords": ["laravel", "form", "controllers", "JavaScript"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex. Suroviy",
+            "email": "suroviy@bk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "cartalyst/sentinel": "v2.0.*",
+        "pseudoagentur/soa-sentinel" : "dev-develop",
+        "graham-campbell/markdown": "v6.0.1",
+        "webuni/commonmark-table-extension": "0.4.*",
+        "webuni/commonmark-attributes-extension": "0.4.*",
+        "radic/blade-extensions": "^6.2"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Suroviy\\SoaAddon\\": "src/"
+        }
+    }
+}
