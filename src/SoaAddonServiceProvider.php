@@ -54,7 +54,45 @@ class SoaAddonServiceProvider extends ServiceProvider {
 			__DIR__.'/../publish' => base_path()
 		]);
 
-		FormItem::register('markdown', Admin\Form\Markdown::class);
+		FormItem::register('markdown', Admin\FormItems\Markdown::class);
+
+		/*
+		FormItem::register('bootstrapselect', Admin\FormItems\BootstrapSelect::class);
+		FormItem::register('checkbox', Admin\FormItems\Checkbox::class);
+		FormItem::register('chosen', Admin\FormItems\Chosen::class);
+		FormItem::register('CKEditor', Admin\FormItems\ckeditor::class);
+		FormItem::register('colorpicker', Admin\FormItems\Colorpicker::class);
+		FormItem::register('columns', Admin\FormItems\Columns::class);
+		FormItem::register('custom', Admin\FormItems\Custom::class);
+		FormItem::register('date', Admin\FormItems\Date::class);
+		FormItem::register('file', Admin\FormItems\File::class);
+		FormItem::register('filemanager', Admin\FormItems\Filemanager::class);
+		FormItem::register('hidden', Admin\FormItems\Hidden::class);
+		FormItem::register('image', Admin\FormItems\Image::class);
+		FormItem::register('images', Admin\FormItems\Images::class);
+		FormItem::register('multiselect', Admin\FormItems\MultiSelect::class);
+		FormItem::register('password', Admin\FormItems\Password::class);
+		FormItem::register('permissions', Admin\FormItems\Permissions::class);
+		FormItem::register('radio', Admin\FormItems\Radio::class);
+		FormItem::register('roles', Admin\FormItems\Roles::class);
+		FormItem::register('select', Admin\FormItems\Select::class);
+		FormItem::register('select2', Admin\FormItems\Select2::class);
+		FormItem::register('sentinelpassword', Admin\FormItems\SentinelPassword::class);
+		FormItem::register('text', Admin\FormItems\Text::class);
+		FormItem::register('textaddon', Admin\FormItems\TextAddon::class);
+		FormItem::register('textarea', Admin\FormItems\Textarea::class);
+		FormItem::register('time', Admin\FormItems\Time::class);
+		FormItem::register('timestamp', Admin\FormItems\Timestamp::class);
+		FormItem::register('tinymce', Admin\FormItems\TinyMCE::class);
+		FormItem::register('view', Admin\FormItems\View::class);
+		FormItem::register('icheckbox', Admin\FormItems\ICheckbox::class);
+		FormItem::register('switchcheckbox', Admin\FormItems\SwitchCheckbox::class);
+		FormItem::register('switchradio', Admin\FormItems\SwitchRadio::class);
+		FormItem::register('iradio', Admin\FormItems\IRadio::class);
+		FormItem::register('typeahead', Admin\FormItems\typeahead::class);
+		*/
+
+
 
 		include __DIR__.'/../routes.php';
 	}
