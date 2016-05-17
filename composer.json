@@ -15,7 +15,7 @@
         "pseudoagentur/soa-sentinel" : "dev-develop",
         "graham-campbell/markdown": "v6.0.1",
         "webuni/commonmark-table-extension": "0.4.*",
-        "webuni/commonmark-attributes-extension": "0.4.*",
+        "webuni/commonmark-attributes-extension": "0.3.*",
         "radic/blade-extensions": "^6.2"
     },
     "require-dev": {
